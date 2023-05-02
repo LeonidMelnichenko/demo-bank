@@ -1,3 +1,5 @@
+package src;
+
 public class Account {
     String name;
     String address;
@@ -6,7 +8,7 @@ public class Account {
         System.out.println(name);
         System.out.println(" (");
         System.out.println(address);
-        System.out.println(") имеет на сччету $");
+        System.out.println(") имеет на счету $");
         System.out.println(balance);
     }
     public double getInterest(double percentageRate){
